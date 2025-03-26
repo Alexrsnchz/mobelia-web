@@ -7,12 +7,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import {
-  CartIcon,
-  ChevronDownIcon,
-  HeartIcon,
-  UserIcon,
-} from "@/components/icons/Icons.jsx";
+import { CartIcon, HeartIcon, UserIcon } from "@/components/icons/Icons.jsx";
 import NavLink from "@/components/misc/NavLink.jsx";
 
 function Navbar() {
