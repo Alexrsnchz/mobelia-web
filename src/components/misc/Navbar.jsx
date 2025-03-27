@@ -9,13 +9,13 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { CartIcon, HeartIcon, UserIcon } from "@/components/icons/Icons.jsx";
 import NavbarLink from "@/components/misc/NavbarLink.jsx";
-import Candidate_2 from "@/assets/images/Candidate_2.webp";
+import MobeliaLogo_badge from "@/assets/images/MobeliaLogo_badge.webp";
 
 function Navbar() {
   return (
-    <nav className="sticky flex justify-between items-center px-21 py-4 top-0 z-50">
+    <nav className="sticky flex justify-between items-center px-21 py-4 top-0 z-50 bg-white">
       <Link to="/" className="flex items-center gap-2">
-        <img src={Candidate_2} alt="Möbelia logo" className="w-10 h-6" />
+        <img src={MobeliaLogo_badge} alt="Möbelia logo" className="w-10 h-6" />
         {/*<div className="rounded-sm h-8 w-8 bg-gray-600"></div>*/}
         <span className="text-xl font-bold">Möbelia</span>
       </Link>
