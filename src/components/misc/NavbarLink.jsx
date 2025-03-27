@@ -1,6 +1,6 @@
 import { ChevronDownIcon } from "@/components/icons/Icons.jsx";
 
-function NavLink({ text }) {
+function NavbarLink({ text }) {
   return (
     <div className="flex items-center gap-1 cursor-pointer group">
       <span className="text-sm font-medium">{text}</span>
@@ -9,4 +9,4 @@ function NavLink({ text }) {
   );
 }
 
-export default NavLink;
+export default NavbarLink;

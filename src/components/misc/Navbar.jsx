@@ -8,24 +8,25 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { CartIcon, HeartIcon, UserIcon } from "@/components/icons/Icons.jsx";
-import NavLink from "@/components/misc/NavLink.jsx";
+import NavbarLink from "@/components/misc/NavbarLink.jsx";
+import Candidate_2 from "@/assets/images/Candidate_2.webp";
 
 function Navbar() {
   return (
     <nav className="sticky flex justify-between items-center px-21 py-4 top-0 z-50">
       <Link to="/" className="flex items-center gap-2">
-        {/* <img src={} alt="Möbelia logo" className="w-8 h-8" /> */}
-        <div className="rounded-sm h-8 w-8 bg-gray-600"></div>
+        <img src={Candidate_2} alt="Möbelia logo" className="w-10 h-6" />
+        {/*<div className="rounded-sm h-8 w-8 bg-gray-600"></div>*/}
         <span className="text-xl font-bold">Möbelia</span>
       </Link>
 
       <div className="flex items-center space-x-8">
-        <NavLink text="Living room" />
-        <NavLink text="Bedroom" />
-        <NavLink text="Dining" />
-        <NavLink text="Office" />
-        <NavLink text="Outdoor" />
-        <NavLink text="Decor" />
+        <NavbarLink text="Living room" />
+        <NavbarLink text="Bedroom" />
+        <NavbarLink text="Dining" />
+        <NavbarLink text="Office" />
+        <NavbarLink text="Outdoor" />
+        <NavbarLink text="Decor" />
         <Link to="/sales" className="text-sm font-semibold">
           Sales
         </Link>
