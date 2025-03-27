@@ -73,10 +73,7 @@ function Navbar() {
           <SheetContent className="w-1/2 md:w-1/3 px-5 py-10">
             <div className="space-y-5">
               <h3 className="text-xl font-bold">Shop by rooms</h3>
-              <Link
-                to="/favourites"
-                className="flex items-center gap-2 font-medium"
-              >
+              <Link to="#" className="flex items-center gap-2 font-medium">
                 • Living room
               </Link>
               <Link to="#" className="flex items-center gap-2 font-medium">
