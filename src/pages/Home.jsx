@@ -6,6 +6,7 @@ function Home() {
     <>
       <Navbar />
       <Hero />
+      <section className="min-h-screen"></section>
     </>
   );
 }
