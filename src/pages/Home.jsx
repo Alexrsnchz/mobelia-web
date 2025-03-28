@@ -1,4 +1,4 @@
-import Navbar from "@/components/misc/Navbar.jsx";
+import Navbar from "@/components/navigation/Navbar.jsx";
 import Hero from "@/components/homePage/Hero.jsx";
 
 function Home() {
