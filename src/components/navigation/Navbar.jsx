@@ -14,7 +14,7 @@ import ResponsiveMenu from "@/components/navigation/ResponsiveMenu.jsx";
 
 function Navbar() {
   return (
-    <nav className="sticky flex justify-between items-center lg:max-w-7xl lg:mx-auto px-8 md:px-15 py-4 top-0 z-50 bg-white">
+    <nav className="sticky flex justify-between items-center top-0 z-50 max-w-7xl mx-auto px-8 md:px-16 lg:px-0 py-4 bg-white">
       <Link to="/" className="flex items-center gap-2">
         <img src={MobeliaLogo_badge} alt="Möbelia logo" className="w-10 h-6" />
         <span className="text-xl font-bold">Möbelia</span>
