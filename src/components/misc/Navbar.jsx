@@ -74,22 +74,22 @@ function Navbar() {
             <div className="space-y-5">
               <h3 className="text-xl font-bold">Shop by rooms</h3>
               <Link to="#" className="flex items-center gap-2 font-medium">
-                • Living room
+                • <span className="text-gray-800">Living room</span>
               </Link>
               <Link to="#" className="flex items-center gap-2 font-medium">
-                • Bedroom
+                • <span className="text-gray-800">Bedroom</span>
               </Link>
               <Link to="#" className="flex items-center gap-2 font-medium">
-                • Dining room
+                • <span className="text-gray-800">Dining room</span>
               </Link>
               <Link to="#" className="flex items-center gap-2 font-medium">
-                • Home office
+                • <span className="text-gray-800">Home office</span>
               </Link>
-              <Link to="#" className="flex items-center gap-2 font-medium">
-                • Outdoor
+              <Link to="#" className="flex items-center gap-2 font-medium ">
+                • <span className="text-gray-800">Outdoor</span>
               </Link>
-              <Link to="#" className="flex items-center gap-2 font-medium">
-                • Decor
+              <Link to="#" className="flex items-center gap-2 font-medium ">
+                • <span className="text-gray-800">Decor</span>
               </Link>
             </div>
 
@@ -101,13 +101,16 @@ function Navbar() {
                 to="/favourites"
                 className="flex items-center gap-2 font-medium"
               >
-                <HeartIcon className="w-4.5 h-4.5" /> Favourites
+                <HeartIcon className="w-4.5 h-4.5" />
+                <span className="text-gray-800">Favourites</span>
               </Link>
               <Link to="#" className="flex items-center gap-2 font-medium">
-                <SignInIcon className="w-4.5 h-4.5" /> Sign in
+                <SignInIcon className="w-4.5 h-4.5" />
+                <span className="text-gray-800">Sign in</span>
               </Link>
               <Link to="#" className="flex items-center gap-2 font-medium">
-                <SignUpIcon className="w-4.5 h-4.5" /> Sign up
+                <SignUpIcon className="w-4.5 h-4.5" />
+                <span className="text-gray-800">Sign up</span>
               </Link>
             </div>
           </SheetContent>
