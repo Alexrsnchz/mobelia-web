@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator.jsx";
 
 function HoverLink({ text, category, items = [] }) {
   return (
-    <div className="relative flex items-center gap-1 cursor-pointer group">
+    <div className="relative flex items-center gap-1 cursor-pointer group hover:text-[#a95719]">
       <span className="text-sm font-medium">{text}</span>
       <ChevronDownIcon className="w-4 h-4 mt-1 text-gray-500 group-hover:rotate-180 transition-transform duration-200 ease-in-out" />
 
@@ -13,7 +13,7 @@ function HoverLink({ text, category, items = [] }) {
           <Link
             key={index}
             to={"/furniture" + item.route}
-            className="px-3 py-3 w-full text-gray-800 hover:bg-gray-200"
+            className="px-3 py-3 w-full text-gray-800 hover:text-[#a95719] transition-colors duration-100 ease-in-out"
           >
             {item.text}
           </Link>
