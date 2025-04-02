@@ -9,7 +9,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu.jsx";
 
-function NavControls() {
+export default function NavControls() {
   return (
     <>
       <Link to="/favourites">
@@ -37,5 +37,3 @@ function NavControls() {
     </>
   );
 }
-
-export default NavControls;

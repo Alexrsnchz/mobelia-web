@@ -2,13 +2,13 @@ import { ChevronDownIcon } from "@/components/icons/Icons.jsx";
 import { Link } from "react-router";
 import { Separator } from "@/components/ui/separator.jsx";
 
-function HoverLink({ text, category, items = [] }) {
+export default function HoverLink({ text, category, items = [] }) {
   return (
-    <div className="relative flex items-center gap-1 cursor-pointer group hover:text-[#a95719]">
+    <div className="flex items-center relative space-x-1 group cursor-pointer hover:text-[#a95719]">
       <span className="text-sm font-medium">{text}</span>
-      <ChevronDownIcon className="w-4 h-4 mt-1 text-gray-500 group-hover:rotate-180 transition-transform duration-200 ease-in-out" />
+      <ChevronDownIcon className="w-4 h-4 mt-1 group-hover:rotate-180 text-gray-500 transition-transform duration-200 ease-in-out" />
 
-      <div className="absolute invisible flex flex-col top-full pt-5 w-[200px] group-hover:visible rounded-sm bg-white">
+      <div className="hidden group-hover:flex flex-col absolute top-full pt-5 w-[200px] rounded-sm bg-white">
         {items.map((item, index) => (
           <Link
             key={index}
@@ -31,5 +31,3 @@ function HoverLink({ text, category, items = [] }) {
     </div>
   );
 }
-
-export default HoverLink;
