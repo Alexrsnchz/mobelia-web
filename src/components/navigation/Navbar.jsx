@@ -11,16 +11,9 @@ import { CartIcon, HeartIcon, UserIcon } from "@/components/icons/Icons.jsx";
 import HoverLink from "@/components/navigation/HoverLink.jsx";
 import MobeliaLogo_badge from "@/assets/images/MobeliaLogo_badge.webp";
 import ResponsiveMenu from "@/components/navigation/ResponsiveMenu.jsx";
+import categories from "@/assets/data/NavLinksData.js";
 
 function Navbar() {
-  const livingRoom = [
-    { text: "Sofas & Couches", route: "/sofas&couches" },
-    { text: "Coffee tables", route: "/coffee-tables" },
-    { text: "TV Stands", route: "/tv-stands" },
-    { text: "Accent chairs", route: "/accent-chairs" },
-    { text: "Bookcases", route: "/bookcases" },
-  ];
-
   return (
     <nav className="sticky flex justify-between items-center top-0 z-50 max-w-7xl mx-auto px-8 md:px-16 xl:px-24 2xl:px-0 py-4 bg-white">
       <Link to="/" className="flex items-center gap-2">
@@ -32,14 +25,38 @@ function Navbar() {
         <HoverLink
           text="Living room"
           category="living-room"
-          items={livingRoom}
+          items={categories.livingRoom}
         />
-        <HoverLink text="Bedroom" category="bedroom" items={livingRoom} />
-        <HoverLink text="Dining" category="dining-room" items={livingRoom} />
-        <HoverLink text="Bathroom" category="bathroom" items={livingRoom} />
-        <HoverLink text="Office" category="home-office" items={livingRoom} />
-        <HoverLink text="Outdoor" category="outdoor" items={livingRoom} />
-        <HoverLink text="Decor" category="decoration" items={livingRoom} />
+        <HoverLink
+          text="Bedroom"
+          category="bedroom"
+          items={categories.bedroom}
+        />
+        <HoverLink
+          text="Dining"
+          category="dining-room"
+          items={categories.diningRoom}
+        />
+        <HoverLink
+          text="Bathroom"
+          category="bathroom"
+          items={categories.bathroom}
+        />
+        <HoverLink
+          text="Office"
+          category="home-office"
+          items={categories.homeOffice}
+        />
+        <HoverLink
+          text="Outdoor"
+          category="outdoor"
+          items={categories.outdoor}
+        />
+        <HoverLink
+          text="Decor"
+          category="decoration"
+          items={categories.decor}
+        />
       </div>
 
       <div className="hidden lg:flex items-center space-x-10">
