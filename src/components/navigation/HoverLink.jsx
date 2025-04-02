@@ -12,8 +12,8 @@ function HoverLink({ text, category, items = [] }) {
         {items.map((item, index) => (
           <Link
             key={index}
-            to={item.route}
-            className="px-3 py-2 w-full text-gray-800 hover:bg-gray-200"
+            to={"/furniture" + item.route}
+            className="px-3 py-3 w-full text-gray-800 hover:bg-gray-200"
           >
             {item.text}
           </Link>
@@ -23,7 +23,7 @@ function HoverLink({ text, category, items = [] }) {
 
         <Link
           to={"/furniture/" + category}
-          className="px-3 py-2 w-full font-semibold text-gray-800"
+          className="px-3 py-3 w-full font-semibold text-gray-800"
         >
           See all
         </Link>
