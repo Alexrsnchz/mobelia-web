@@ -4,13 +4,13 @@ import ResponsiveMenu from "@/components/navigation/ResponsiveMenu.jsx";
 import NavLogo from "@/components/navigation/NavLogo.jsx";
 import NavControls from "@/components/navigation/NavControls.jsx";
 
-function Navbar() {
+export default function Navbar() {
   return (
     <div className="sticky top-0 z-50 w-full bg-white">
-      <nav className="max-w-7xl mx-auto flex justify-between items-center px-8 md:px-16 xl:px-24 2xl:px-0 py-4">
+      <nav className="flex justify-between items-center px-8 md:px-18 lg:px-22 xl:px-24 2xl:px-0 py-4 mx-auto max-w-7xl">
         <NavLogo />
 
-        <div className="hidden lg:flex items-center space-x-8">
+        <div className="hidden xl:flex items-center space-x-8">
           <HoverLink
             text="Living room"
             category="living-room"
@@ -48,16 +48,14 @@ function Navbar() {
           />
         </div>
 
-        <div className="hidden lg:flex items-center space-x-10">
+        <div className="hidden xl:flex items-center space-x-10">
           <NavControls />
         </div>
 
-        <div className="lg:hidden">
+        <div className="xl:hidden">
           <ResponsiveMenu />
         </div>
       </nav>
     </div>
   );
 }
-
-export default Navbar;
