@@ -1,8 +1,8 @@
 import categories from "@/assets/data/NavLinksData.js";
-import HoverLink from "@/components/navigation/HoverLink.jsx";
-import ResponsiveMenu from "@/components/navigation/ResponsiveMenu.jsx";
-import NavLogo from "@/components/navigation/NavLogo.jsx";
-import NavControls from "@/components/navigation/NavControls.jsx";
+import HoverLink from "@/components/navigation/navbar/HoverLink.jsx";
+import ResponsiveMenu from "@/components/navigation/navbar/ResponsiveMenu.jsx";
+import NavLogo from "@/components/navigation/navbar/NavLogo.jsx";
+import NavControls from "@/components/navigation/navbar/NavControls.jsx";
 
 export default function Navbar() {
   return (
