@@ -18,8 +18,8 @@ import {
   DeskIcon,
   FenceIcon,
   PlantIcon,
+  BathIcon,
 } from "@/components/icons/Icons.jsx";
-import { BathIcon } from "lucide-react";
 import MobeliaLogo_badge from "@/assets/images/MobeliaLogo_badge.webp";
 
 export default function Footer() {
