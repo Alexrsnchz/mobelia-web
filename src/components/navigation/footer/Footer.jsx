@@ -7,13 +7,13 @@ import FooterColumn1 from "@/components/navigation/footer/FooterColumn1.jsx";
 export default function Footer() {
   return (
     <div>
-      <div className="flex justify-around py-10 border-y-2 border-gray-300">
+      <div className="flex flex-col md:flex-row justify-around border-y-2 py-10 border-gray-300">
         <FooterColumn1 />
         <FooterColumn2 />
         <FooterColumn3 />
         <FooterColumn4 />
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center text-center px-12 py-7 gap-7">
+      <div className="flex flex-col md:flex-row justify-between items-center px-12 py-7 gap-7 text-center">
         <span className="text-gray-700">
           &copy; 2025 Möbelia. All rights reserved.
         </span>

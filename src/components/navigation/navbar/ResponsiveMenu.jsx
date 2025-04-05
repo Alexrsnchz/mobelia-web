@@ -18,22 +18,22 @@ export default function ResponsiveMenu() {
         <div className="space-y-5">
           <h3 className="text-xl font-bold">Shop by rooms</h3>
           <Link to="#" className="flex items-center space-x-2 font-medium">
-            • <span className="text-gray-700">Living room</span>
+            • <span className="text-gray-700">&nbsp;Living room</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium">
-            • <span className="text-gray-700">Bedroom</span>
+            • <span className="text-gray-700">&nbsp;Bedroom</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium">
-            • <span className="text-gray-700">Dining room</span>
+            • <span className="text-gray-700">&nbsp;Dining room</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium">
-            • <span className="text-gray-700">Home office</span>
+            • <span className="text-gray-700">&nbsp;Home office</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium ">
-            • <span className="text-gray-700">Outdoor</span>
+            • <span className="text-gray-700">&nbsp;Outdoor</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium ">
-            • <span className="text-gray-700">Decor</span>
+            • <span className="text-gray-700">&nbsp;Decor</span>
           </Link>
         </div>
 
