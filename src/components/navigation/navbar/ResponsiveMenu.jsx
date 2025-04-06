@@ -1,7 +1,13 @@
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet.jsx";
 import {
+  BedIcon,
+  CouchIcon,
+  DeskIcon,
+  DiningIcon,
+  FenceIcon,
   HeartIcon,
   MenuIcon,
+  PlantIcon,
   SignInIcon,
   SignUpIcon,
 } from "@/components/icons/Icons.jsx";
@@ -18,22 +24,28 @@ export default function ResponsiveMenu() {
         <div className="space-y-5">
           <h3 className="text-xl font-bold">Shop by rooms</h3>
           <Link to="#" className="flex items-center space-x-2 font-medium">
-            • <span className="text-gray-700">&nbsp;Living room</span>
+            <CouchIcon className="w-4.5 h-4.5" />
+            <span className="text-gray-700">Living room</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium">
-            • <span className="text-gray-700">&nbsp;Bedroom</span>
+            <BedIcon className="w-4.5 h-4.5" />
+            <span className="text-gray-700">Bedroom</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium">
-            • <span className="text-gray-700">&nbsp;Dining room</span>
+            <DiningIcon className="w-4.5 h-4.5" />
+            <span className="text-gray-700">Dining room</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium">
-            • <span className="text-gray-700">&nbsp;Home office</span>
+            <DeskIcon className="w-4.5 h-4.5" />
+            <span className="text-gray-700">Home office</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium ">
-            • <span className="text-gray-700">&nbsp;Outdoor</span>
+            <FenceIcon className="w-4.5 h-4.5" />
+            <span className="text-gray-700">Outdoor</span>
           </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium ">
-            • <span className="text-gray-700">&nbsp;Decor</span>
+            <PlantIcon className="w-4.5 h-4.5" />
+            <span className="text-gray-700">Decor</span>
           </Link>
         </div>
 
@@ -41,13 +53,6 @@ export default function ResponsiveMenu() {
 
         <div className="space-y-5">
           <h3 className="text-xl font-bold">Account</h3>
-          <Link
-            to="/favourites"
-            className="flex items-center space-x-2 font-medium"
-          >
-            <HeartIcon className="w-4.5 h-4.5" />
-            <span className="text-gray-700">Favourites</span>
-          </Link>
           <Link to="#" className="flex items-center space-x-2 font-medium">
             <SignInIcon className="w-4.5 h-4.5" />
             <span className="text-gray-700">Sign in</span>
