@@ -1,5 +1,5 @@
 import MainLayout from "@/components/layouts/MainLayout.jsx";
-import Hero from "@/components/homePage/Hero.jsx";
+import Hero from "@/components/website/homePage/Hero.jsx";
 
 function Home() {
   return (

@@ -5,7 +5,6 @@ import {
   DeskIcon,
   DiningIcon,
   FenceIcon,
-  HeartIcon,
   MenuIcon,
   PlantIcon,
   SignInIcon,
