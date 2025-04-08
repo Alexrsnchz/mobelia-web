@@ -74,6 +74,7 @@ export default function SignUpForm() {
             className="pl-10 pr-4 py-2 w-full rounded-lg border-2 focus:outline-none focus:border-gray-500 text-gray-800 placeholder-gray-400"
           />
           <button
+            type="button"
             onClick={togglePasswordVisibility}
             className="absolute right-3 cursor-pointer"
           >
