@@ -1,16 +1,13 @@
-import SignUpForm from "@/components/auth/register/SignUpForm.jsx";
-import { Link } from "react-router";
+import AuthPage_background from "@/assets/images/AuthPage_background.webp";
 import MobeliaLogo_badge from "@/assets/images/MobeliaLogo_badge.webp";
-import LoginPage_background from "@/assets/images/LoginPage_background.webp";
+import { Link } from "react-router";
 
-export default function SignUp() {
+export default function AuthLayout({ children }) {
   return (
     <div
-      className="flex justify-center items-center w-full h-screen"
+      className="flex justify-center items-center w-full min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: `url(${LoginPage_background})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundImage: `url(${AuthPage_background})`,
       }}
     >
       <div className="p-10 rounded-xl border-3 border-neutral-400 bg-white">
@@ -22,21 +19,12 @@ export default function SignUp() {
           />
           <span className="text-2xl font-bold">Möbelia</span>
         </div>
-        <SignUpForm />
-        <div className="text-center my-6">
-          <p className="text-sm text-gray-600">
-            Already have an account?{" "}
-            <Link
-              to={"/signin"}
-              className="text-gray-800 font-semibold hover:underline"
-            >
-              Sign in
-            </Link>
-          </p>
-        </div>
+
+        {children}
+
         <div>
           <p className="text-center text-sm text-gray-600">
-            By Signing up, you agree to the{" "}
+            By continuing, you agree to our{" "}
             <Link
               to="/terms-service"
               className="font-semibold text-gray-800 hover:underline"

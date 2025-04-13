@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { useForm } from "react-hook-form";
 import {
   EyeClosedIcon,
   EyeIcon,
@@ -5,8 +7,6 @@ import {
   MailIcon,
   SpinnerIcon,
 } from "@/components/icons/Icons.jsx";
-import { useForm } from "react-hook-form";
-import { useState } from "react";
 
 export default function SignUpForm() {
   const [passwordVisibility, setPasswordVisibility] = useState(false);
@@ -23,7 +23,16 @@ export default function SignUpForm() {
   };
 
   const onFormSubmit = () => {
-    setLoading(!loading);
+    setLoading(true);
+    /*
+    try {
+      setLoading(true);
+    } catch (error) {
+      // API CALL
+    } finally {
+      setLoading(false);
+    }
+    */
   };
 
   return (
