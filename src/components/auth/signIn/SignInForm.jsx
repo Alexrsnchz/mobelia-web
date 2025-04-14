@@ -110,15 +110,15 @@ export default function SignInForm() {
       </div>
       <button
         disabled={loading}
-        className={`flex justify-center items-center py-2 w-full rounded-md ${loading ? "bg-neutral-700" : "bg-neutral-800"} transition-color duration-200 ease-in-out`}
+        className={`flex justify-center items-center py-2 w-full rounded-md not-disabled:cursor-pointer ${loading ? "bg-neutral-700" : "bg-neutral-800"} transition-color duration-200 ease-in-out`}
       >
         {loading ? (
           <>
             <SpinnerIcon className="text-white w-4.5 h-4.5" />
-            <span className="ml-3 font-medium text-white">Signing up...</span>
+            <span className="ml-3 font-medium text-white">Signing in...</span>
           </>
         ) : (
-          <span className="font-medium text-white">Sign Up</span>
+          <span className="font-medium text-white">Sign In</span>
         )}
       </button>
     </form>

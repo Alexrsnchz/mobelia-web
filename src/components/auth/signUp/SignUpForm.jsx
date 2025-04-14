@@ -110,7 +110,7 @@ export default function SignUpForm() {
       </div>
       <button
         disabled={loading}
-        className={`flex justify-center items-center py-2 w-full rounded-md ${loading ? "bg-neutral-700" : "bg-neutral-800"} transition-color duration-200 ease-in-out`}
+        className={`flex justify-center items-center py-2 w-full rounded-md not-disabled:cursor-pointer ${loading ? "bg-neutral-700" : "bg-neutral-800"} transition-color duration-200 ease-in-out`}
       >
         {loading ? (
           <>
