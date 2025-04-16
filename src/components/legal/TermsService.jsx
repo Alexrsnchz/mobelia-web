@@ -3,7 +3,7 @@ import MainLayout from "@/components/layouts/MainLayout.jsx";
 export default function TermsService() {
   return (
     <MainLayout>
-      <div className="py-12 border-t-2 border-gray-200">
+      <div className="py-2 md:py-6 lg:py-12 border-t-2 border-gray-200">
         <div className="px-4 py-8 mx-auto max-w-5xl text-gray-800">
           <h1 className="mb-4 text-3xl font-bold">Terms of Service</h1>
           <p className="mb-6 text-sm text-gray-500">
