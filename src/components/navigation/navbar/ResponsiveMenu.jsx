@@ -52,11 +52,17 @@ export default function ResponsiveMenu() {
 
         <div className="space-y-5">
           <h3 className="text-xl font-bold">Account</h3>
-          <Link to="#" className="flex items-center space-x-2 font-medium">
+          <Link
+            to="auth/signin"
+            className="flex items-center space-x-2 font-medium"
+          >
             <SignInIcon className="w-4.5 h-4.5" />
             <span className="text-gray-700">Sign in</span>
           </Link>
-          <Link to="#" className="flex items-center space-x-2 font-medium">
+          <Link
+            to="auth/signup"
+            className="flex items-center space-x-2 font-medium"
+          >
             <SignUpIcon className="w-4.5 h-4.5" />
             <span className="text-gray-700">Sign up</span>
           </Link>
