@@ -40,7 +40,7 @@ export default function AuthLayout({ children }) {
             </Link>
             , including{" "}
             <Link
-              to="cookies-policy"
+              to="/cookies-policy"
               className="font-semibold text-gray-800 hover:underline"
             >
               Cookies
