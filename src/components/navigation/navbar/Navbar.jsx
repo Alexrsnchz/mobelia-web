@@ -1,4 +1,4 @@
-import categories from "@/assets/data/NavLinksData.js";
+import categories from "@/assets/data/navLinksData.js";
 import HoverLink from "@/components/navigation/navbar/HoverLink.jsx";
 import ResponsiveMenu from "@/components/navigation/navbar/ResponsiveMenu.jsx";
 import NavLogo from "@/components/navigation/navbar/NavLogo.jsx";
