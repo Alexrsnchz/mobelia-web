@@ -2,7 +2,7 @@ const testimonials = [
   {
     name: "Jorge Herrera",
     role: "Customer",
-    text: "As an interior architect, I often recommend this store. The furniture is stylish, functional, and consistently reliable. My clients are always happy with the results. Service is also excellent.",
+    text: "As an interior architect, I often recommend this store. The furniture is stylish, functional, and consistently reliable.  Service is also excellent.",
   },
   {
     name: "NordStol",
