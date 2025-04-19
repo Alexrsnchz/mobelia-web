@@ -4,7 +4,7 @@ import TestimonialCard from "@/components/website/homePage/TestimonialCard.jsx";
 export default function Testimonials() {
   return (
     <section id="testimonials">
-      <div className="flex flex-col justify-center items-center py-16 md:py-18 lg:py-20">
+      <div className="flex flex-col justify-center items-center pt-14 pb-16 md:pt-16 md:pb-18 lg:pt-18 lg:pb-20">
         <div className="px-8 md:px-0 max-w-3xl text-center">
           <h3 className="text-2xl md:text-4xl font-bold text-gray-800">
             What Our Customers Say
