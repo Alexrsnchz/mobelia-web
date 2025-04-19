@@ -9,7 +9,7 @@ export default function Services() {
   return (
     <section id="services">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-stone-100">
-        <div className="flex flex-col items-center px-10 md:p-14 lg:p-12">
+        <div className="flex flex-col items-center px-14 py-12 md:px-16 md:py-12 lg:p-12">
           <div className="p-4 rounded-full bg-stone-300">
             <ToolsIcon className="w-7 h-7 text-gray-600" />
           </div>
@@ -22,7 +22,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center p-12">
+        <div className="flex flex-col items-center px-14 py-12 md:px-16 md:py-12 lg:p-12">
           <div className="p-4 rounded-full bg-stone-300">
             <TruckIcon className="w-7 h-7 text-gray-600" />
           </div>
@@ -35,7 +35,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center p-12">
+        <div className="flex flex-col items-center px-14 py-12 md:px-16 md:py-12 lg:p-12">
           <div className="p-4 rounded-full bg-stone-300">
             <ShieldIcon className="w-7 h-7 text-gray-600" />
           </div>
@@ -48,7 +48,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center p-12">
+        <div className="flex flex-col items-center px-14 py-12 md:px-16 md:py-12 lg:p-12">
           <div className="p-4 rounded-full bg-stone-300">
             <BoxIcon className="w-7 h-7 text-gray-600" />
           </div>
