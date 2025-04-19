@@ -6,7 +6,7 @@ import FooterColumn1 from "@/components/navigation/footer/FooterColumn1.jsx";
 
 export default function Footer() {
   return (
-    <div>
+    <>
       <div className="flex flex-col md:flex-row justify-around border-y-2 px-6 lg:px-12 py-10 gap-10 border-gray-300">
         <FooterColumn1 />
         <FooterColumn2 />
@@ -38,6 +38,6 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   );
 }
