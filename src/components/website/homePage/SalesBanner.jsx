@@ -4,7 +4,7 @@ import { Link } from "react-router";
 export default function SalesBanner() {
   return (
     <section id="sales">
-      <div className="py-12 md:px-8 md:py-20 lg:px-12 mx-auto max-w-8xl">
+      <div className="py-12 md:px-8 md:py-16 lg:px-12 lg:py-20 mx-auto max-w-8xl">
         <div
           style={{
             backgroundImage: `url(${HomePage_salesBanner})`,
