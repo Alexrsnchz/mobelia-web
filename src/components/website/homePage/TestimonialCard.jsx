@@ -2,7 +2,7 @@ import { QuoteIcon, StarIcon } from "@/components/icons/Icons.jsx";
 
 export default function TestimonialCard({ name, text, role }) {
   return (
-    <div className="p-6 rounded-lg bg-stone-100 shadow-md">
+    <div className="p-6 rounded-lg bg-stone-100 border border-stone-200 shadow-md">
       <div className="flex justify-center">
         <QuoteIcon className="w-6 h-6 text-gray-700" />
       </div>
