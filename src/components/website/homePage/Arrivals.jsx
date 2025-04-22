@@ -22,14 +22,14 @@ export default function Arrivals() {
             to="/furniture"
             className="flex items-center space-x-2 hover:underline hover:underline-offset-2"
           >
-            <span className="font-semibold text-gray-800">
+            <span className="md:text-lg lg:text-base font-semibold text-gray-800">
               View all products
             </span>
             <ArrowRightIcon className="w-5 h-5 mt-1 text-gray-800" />
           </Link>
         </div>
 
-        <div className="px-2 md:px-10 py-1 md:py-3">
+        <div className="px-2 md:px-10 pt-3 lg:pt-5">
           <ArrivalsCarousel products={furniture} />
         </div>
       </div>

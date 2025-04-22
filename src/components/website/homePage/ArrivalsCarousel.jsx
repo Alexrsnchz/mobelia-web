@@ -19,13 +19,13 @@ export default function ArrivalsCarousel({ products }) {
     <div className="relative w-full">
       <button
         ref={prevRef}
-        className="hidden md:block left-5 top-1/2 -translate-y-1/2 z-10 absolute p-2 rounded-full shadow-lg group bg-white/20 hover:bg-white transition-colors"
+        className="hidden lg:block left-5 top-1/2 -translate-y-1/2 z-10 absolute p-2 rounded-full shadow-lg group bg-white/20 hover:bg-white transition-colors"
       >
         <ArrowLeftIcon className="w-5 h-5 text-gray-700 group-hover:text-black transition" />
       </button>
       <button
         ref={nextRef}
-        className="hidden md:block right-5 top-1/2 -translate-y-1/2 z-10 absolute p-2 rounded-full shadow-lg group bg-white/20 hover:bg-white transition-colors"
+        className="hidden lg:block right-5 top-1/2 -translate-y-1/2 z-10 absolute p-2 rounded-full shadow-lg group bg-white/20 hover:bg-white transition-colors"
       >
         <ArrowRightIcon className="w-5 h-5 text-gray-700 group-hover:text-black transition" />
       </button>
@@ -40,8 +40,8 @@ export default function ArrivalsCarousel({ products }) {
           }}
           breakpoints={{
             640: { slidesPerView: 2 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
+            768: { slidesPerView: 3 },
+            1024: { slidesPerView: 4 },
             1280: { slidesPerView: 6 },
           }}
         >
