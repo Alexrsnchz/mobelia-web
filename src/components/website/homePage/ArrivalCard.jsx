@@ -7,6 +7,7 @@ export default function ArrivalCard({ image, category, name, likes, price }) {
         <img
           src={image}
           alt={name}
+          loading="lazy"
           className="rounded-lg h-full w-full object-cover"
         />
       </div>
