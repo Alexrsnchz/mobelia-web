@@ -1,5 +1,5 @@
 import testimonials from "@/assets/data/testimonialsData.js";
-import TestimonialCard from "@/components/website/homePage/TestimonialCard.jsx";
+import TestimonialCard from "@/components/website/homePage/testimonials/TestimonialCard.jsx";
 
 export default function Testimonials() {
   return (

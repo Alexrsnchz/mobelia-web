@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import ArrivalCard from "@/components/website/homePage/ArrivalCard.jsx";
+import ArrivalCard from "@/components/website/homePage/arrivals/ArrivalCard.jsx";
 import { ArrowLeftIcon, ArrowRightIcon } from "@/components/icons/Icons.jsx";
 
 export default function ArrivalsCarousel({ products }) {

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { ArrowRightIcon } from "@/components/icons/Icons.jsx";
 import arrivalsData from "@/assets/data/arrivalsData.js";
-import ArrivalsCarousel from "@/components/website/homePage/ArrivalsCarousel.jsx";
+import ArrivalsCarousel from "@/components/website/homePage/arrivals/ArrivalsCarousel.jsx";
 
 export default function Arrivals() {
   const [furniture, setFurniture] = useState([]);
@@ -13,7 +13,7 @@ export default function Arrivals() {
 
   return (
     <section id="arrivals">
-      <div className="mx-auto max-w-8xl">
+      <div className="mx-auto max-w-8xl pt-12">
         <div className="flex flex-col md:flex-row justify-between md:items-center px-4 md:px-12 pb-3">
           <h3 className="text-2xl md:text-4xl font-bold text-gray-800">
             New Arrivals
