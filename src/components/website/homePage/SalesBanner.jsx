@@ -1,4 +1,4 @@
-import HomePage_salesBanner from "@/assets/images/HomePage_salesBanner.webp";
+import HomePage_salesBanner from "@/assets/images/homePage_misc/HomePage_salesBanner.webp";
 import { Link } from "react-router";
 
 export default function SalesBanner() {

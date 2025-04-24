@@ -3,7 +3,7 @@ import { Link } from "react-router";
 export default function RoomCard({ name, image, url }) {
   return (
     <Link to={url}>
-      <div className="relative overflow-hidden rounded-lg group">
+      <div className="relative overflow-hidden rounded-lg group aspect-[4/4]">
         <img
           src={image}
           alt={`${name} section image`}

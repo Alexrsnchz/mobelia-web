@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { ArrowRightIcon } from "@/components/icons/Icons.jsx";
-import arrivalsData from "@/assets/data/arrivalsData.js";
+import arrivals from "@/assets/data/arrivalsData.js";
 import ArrivalsCarousel from "@/components/website/homePage/arrivals/ArrivalsCarousel.jsx";
 
 export default function Arrivals() {
   const [furniture, setFurniture] = useState([]);
 
   useEffect(() => {
-    setFurniture(arrivalsData);
+    setFurniture(arrivals);
   }, []);
 
   return (

@@ -17,9 +17,7 @@ export default function ResponsiveMenu() {
   return (
     <Sheet>
       <SheetTrigger>
-        <button aria-label="Open menu" className="p-2">
-          <MenuIcon className="w-5 h-5 cursor-pointer" />
-        </button>
+        <MenuIcon className="w-5 h-5 cursor-pointer" />
       </SheetTrigger>
       <SheetContent className="px-5 py-10 w-1/2 md:w-1/3">
         <div className="space-y-5">
