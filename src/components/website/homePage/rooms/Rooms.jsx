@@ -4,7 +4,7 @@ import RoomsCarousel from "@/components/website/homePage/rooms/RoomsCarousel.jsx
 export default function Rooms() {
   return (
     <section id="rooms">
-      <div className="px-4 md:px-6 py-20 mx-auto max-w-8xl">
+      <div className="px-2 md:px-6 py-20 mx-auto max-w-8xl">
         <div className="text-center">
           <h3 className="text-2xl md:text-4xl font-bold text-gray-800">
             Shop By Room
