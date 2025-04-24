@@ -6,12 +6,13 @@ import Services from "@/components/website/homePage/Services.jsx";
 import SalesBanner from "@/components/website/homePage/SalesBanner.jsx";
 import Arrivals from "@/components/website/homePage/arrivals/Arrivals.jsx";
 import Featured from "@/components/website/homePage/featured/Featured.jsx";
+import Rooms from "@/components/website/homePage/rooms/Rooms.jsx";
 
 function Home() {
   return (
     <MainLayout>
       <Hero />
-      <section className="min-h-screen"></section>
+      <Rooms />
       <Featured />
       <Arrivals />
       <SalesBanner />
