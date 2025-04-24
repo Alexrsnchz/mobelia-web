@@ -9,7 +9,7 @@ export default function Rooms() {
           <h3 className="text-2xl md:text-4xl font-bold text-gray-800">
             Shop By Room
           </h3>
-          <p className="mt-2 text-lg md:text-xl text-gray-700 font-medium">
+          <p className="mt-2 mx-auto max-w-xs md:max-w-lg text-lg md:text-xl text-gray-700 font-medium">
             Find the perfect furniture for every space in your home
           </p>
         </div>
