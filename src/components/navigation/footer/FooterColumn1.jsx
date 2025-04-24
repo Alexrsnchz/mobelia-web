@@ -35,24 +35,28 @@ export default function FooterColumn1() {
         <div className="flex items-center space-x-3">
           <Link
             to="https://facebook.com/"
+            aria-label="Facebook link"
             className="p-2 rounded-full border-2 border-gray-400"
           >
             <FacebookIcon className="w-5.5 h-5.5 text-gray-700" />
           </Link>
           <Link
             to="https://instagram.com/"
+            aria-label="Instagram link"
             className="p-2 rounded-full border-2 border-gray-400"
           >
             <InstagramIcon className="w-5.5 h-5.5 text-gray-700" />
           </Link>
           <Link
             to="https://x.com/"
+            aria-label="X link"
             className="p-2 rounded-full border-2 border-gray-400"
           >
             <XIcon className="w-5.5 h-5.5 text-gray-700" />
           </Link>
           <Link
             to="https://pinterest.com/"
+            aria-label="Pinterest link"
             className="p-2 rounded-full border-2 border-gray-400"
           >
             <PinterestIcon className="w-5.5 h-5.5 text-gray-700" />
