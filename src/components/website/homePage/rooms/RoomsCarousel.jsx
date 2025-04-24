@@ -40,14 +40,14 @@ export default function RoomsCarousel({ rooms }) {
           }}
           breakpoints={{
             640: { slidesPerView: 2 },
-            768: { slidesPerView: 3 },
+            768: { slidesPerView: 4 },
             1024: { slidesPerView: 4 },
             1280: { slidesPerView: 5 },
           }}
         >
           {rooms.map((room) => (
             <SwiperSlide key={room.id}>
-              <div className="px-2 md:px-6">
+              <div className="px-2 md:px-4 lg:px-6">
                 <RoomCard name={room.name} image={room.image} url={room.url} />
               </div>
             </SwiperSlide>
