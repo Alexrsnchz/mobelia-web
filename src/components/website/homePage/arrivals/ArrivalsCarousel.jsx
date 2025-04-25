@@ -27,15 +27,15 @@ export default function ArrivalsCarousel({ products }) {
 
       <Swiper
         modules={[Navigation]}
-        slidesPerView={2}
+        slidesPerView={2.2}
         onBeforeInit={(swiper) => {
           swiper.params.navigation.prevEl = prevRef.current;
           swiper.params.navigation.nextEl = nextRef.current;
         }}
         navigation={false}
         breakpoints={{
-          640: { slidesPerView: 2 },
-          768: { slidesPerView: 3 },
+          640: { slidesPerView: 2.2 },
+          768: { slidesPerView: 3.2 },
           1024: { slidesPerView: 4 },
           1280: { slidesPerView: 6 },
         }}

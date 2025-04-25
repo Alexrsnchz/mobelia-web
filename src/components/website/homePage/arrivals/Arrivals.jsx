@@ -22,7 +22,7 @@ export default function Arrivals() {
           </Link>
         </div>
 
-        <div className="px-2 md:px-10 pt-3 lg:pt-5">
+        <div className="px-2 md:px-6 lg:px-10 pt-3 lg:pt-5">
           <ArrivalsCarousel products={arrivals} />
         </div>
       </div>
