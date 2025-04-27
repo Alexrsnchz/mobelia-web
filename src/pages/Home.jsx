@@ -5,7 +5,7 @@ import Testimonials from "@/components/website/homePage/testimonials/Testimonial
 import Services from "@/components/website/homePage/Services.jsx";
 import SalesBanner from "@/components/website/homePage/SalesBanner.jsx";
 import Arrivals from "@/components/website/homePage/arrivals/Arrivals.jsx";
-//import Featured from "@/components/website/homePage/featured/Featured.jsx";
+import Featured from "@/components/website/homePage/featured/Featured.jsx";
 import Rooms from "@/components/website/homePage/rooms/Rooms.jsx";
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
     <MainLayout>
       <Hero />
       <Rooms />
-      {/*<Featured />*/}
+      <Featured />
       <Arrivals />
       <SalesBanner />
       <Services />

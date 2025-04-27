@@ -1,66 +1,94 @@
-import { CartIcon } from "@/components/icons/Icons.jsx";
 import { Link } from "react-router";
-import { ExternalLink } from "lucide-react";
+import Featured from "@/assets/images/homePage_misc/featuredProduct.webp";
+import { LeafIcon, MedalIcon } from "@/components/icons/Icons.jsx";
 
 export default function FeaturedProduct({
-  category,
   name,
   description,
+  room,
+  brand,
+  material,
   height,
   width,
   depth,
-  material,
 }) {
   return (
-    <div className="grid grid-cols-2 mx-auto max-w-7xl w-full h-full">
-      <div className="max-w-xl space-y-8">
-        <div>
-          <span className="text-lg font-semibold text-stone-700">
-            Featured product
+    <div className="grid grid-cols-2 mx-auto max-w-6xl">
+      {/* INFORMATION COLUMN */}
+      <div>
+        {/* MAIN INFO SECTION */}
+        <div className="mb-10">
+          <span className="text-md font-semibold text-gray-400 uppercase">
+            Signature collection
           </span>
-          <h3 className="mt-3 text-4xl font-bold text-stone-700">{name}</h3>
-          <p className="mt-5 text-lg font-medium text-stone-600">
+          <h3 className="mt-2 mb-5 max-w-lg text-2xl sm:text-4xl font-bold text-gray-800">
+            {name}
+          </h3>
+          <p className="max-w-lg text-base sm:text-lg text-gray-700 font-medium">
             {description}
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-6">
+        {/* DETAILS SECTION */}
+        <div className="grid grid-cols-2 gap-10">
           <div>
-            <h4 className="text-xl font-medium text-gray-800">Room</h4>
-            <span className="text-lg font-medium text-gray-700">
-              • {category}
-            </span>
+            <h4 className="text-md font-medium text-gray-500 uppercase">
+              Room
+            </h4>
+            <span className="font-medium text-gray-800">{room}</span>
           </div>
           <div>
-            <h4 className="text-xl font-medium text-gray-800">Material</h4>
-            <span className="text-lg font-medium text-gray-700">
-              • {material}
-            </span>
+            <h4 className="text-md font-medium text-gray-500 uppercase">
+              Brand
+            </h4>
+            <span className="font-medium text-gray-800">{brand}</span>
           </div>
           <div>
-            <h4 className="text-xl font-medium text-gray-800">Dimensions</h4>
-            <span className="text-lg font-medium text-gray-700">
-              • {height} cm x {width} cm x {depth} cm
+            <h4 className="text-md font-medium text-gray-500 uppercase">
+              Material
+            </h4>
+            <span className="font-medium text-gray-800">{material}</span>
+          </div>
+          <div>
+            <h4 className="text-md font-medium text-gray-500 uppercase">
+              Dimensions
+            </h4>
+            <span className="font-medium text-gray-800">
+              {height} cm x {width} cm x {depth} cm
             </span>
           </div>
         </div>
 
-        <div className="flex items-center space-x-6">
-          <button className="flex items-center px-5 py-3 space-x-2 rounded-lg bg-neutral-800">
-            <CartIcon className="w-5 h-5 text-white" />
-            <span className="font-medium text-white">Add to cart</span>
-          </button>
+        {/* BADGES SECTION */}
+        <div className="flex items-center space-x-8 my-10">
+          <span className="flex items-center space-x-2 px-3 py-1 rounded-full bg-stone-200">
+            <MedalIcon className="w-5 h-5 text-gray-800" />
+            <span className="font-medium text-gray-800">Design Award 2025</span>
+          </span>
+          <span className="flex items-center space-x-2 px-3 py-1 rounded-full bg-stone-200">
+            <LeafIcon className="w-5 h-5 text-gray-800" />
+            <span className="font-medium text-gray-800">Eco-Friendly</span>
+          </span>
+        </div>
+
+        {/* BUTTONS SECTION */}
+        <div className="mt-15">
           <Link
             to="/furniture/productId"
-            className="flex items-center px-5 py-3 space-x-2 rounded-lg bg-neutral-800"
+            className="px-6 py-3 space-x-2 rounded-md bg-neutral-900 hover:bg-neutral-800"
           >
-            <ExternalLink className="w-5 h-5 text-white" />
-            <span className="font-medium text-white">View product</span>
+            <span className="font-medium text-white">View product details</span>
           </Link>
         </div>
       </div>
-      <div className="py-10">
-        <div className="w-full h-full rounded-lg border border-gray-400 bg-gray-300"></div>
+
+      {/* IMAGE COLUMN */}
+      <div className="aspect-[4/4]">
+        <img
+          src={Featured}
+          alt="Featured product image"
+          className="w-full h-full rounded-lg object-cover"
+        />
       </div>
     </div>
   );

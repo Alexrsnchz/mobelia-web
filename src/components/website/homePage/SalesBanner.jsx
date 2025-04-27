@@ -1,4 +1,4 @@
-import HomePage_salesBanner from "@/assets/images/homePage_misc/HomePage_salesBanner.webp";
+import HomePage_salesBanner from "@/assets/images/homePage_misc/salesBanner.webp";
 import { Link } from "react-router";
 
 export default function SalesBanner() {
@@ -23,7 +23,7 @@ export default function SalesBanner() {
             </div>
             <Link
               to="/sales"
-              className="px-8 py-3 rounded-lg bg-neutral-900 hover:bg-gray-100 text-white hover:text-gray-800 font-semibold shadow-md transition"
+              className="px-8 py-3 rounded-md bg-neutral-900 hover:bg-gray-100 text-white hover:text-gray-800 font-semibold shadow-md transition"
             >
               Go to sales
             </Link>
