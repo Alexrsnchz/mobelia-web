@@ -40,7 +40,7 @@ export default function FeaturedProduct({
         <FeaturedBadges />
 
         {/* BUTTON SECTION */}
-        <div className="mt-5 mb-15 lg:mt-3 lg:mb-0">
+        <div className="mt-5 mb-15 lg:mt-3 xl:mb-0">
           <Link
             to="/furniture/productId"
             className="px-6 py-3 space-x-2 rounded-md border-2 border-neutral-800 bg-white-900 hover:bg-neutral-800 hover:text-white transition-colors duration-300"
