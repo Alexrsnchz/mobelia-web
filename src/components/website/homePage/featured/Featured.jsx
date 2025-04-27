@@ -6,7 +6,7 @@ const product = {
     "Add a cozy, handmade touch to your space with this stylish Crochet Pattern Pouf. Crafted with soft, durable materials, it offers both comfort and charm as a footrest or a decorative accent.",
   room: "Living room",
   brand: "Sköl",
-  material: "Spruce wood, cotton",
+  material: "Spruce wood, cotton fiver",
   height: 40.2,
   width: 56.8,
   depth: 50.4,
