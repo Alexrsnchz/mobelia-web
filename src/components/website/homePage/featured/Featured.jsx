@@ -4,12 +4,14 @@ const product = {
   name: "Scandinavian designer chair",
   description:
     "Add a cozy, handmade touch to your space with this stylish Crochet Pattern Pouf. Crafted with soft, durable materials, it offers both comfort and charm as a footrest or a decorative accent.",
-  room: "Dining room",
+  room: "Living room",
   brand: "Sköl",
   material: "Spruce wood, cotton",
   height: 40.2,
   width: 56.8,
   depth: 50.4,
+  weight: 13.2,
+  warranty: "1 year",
 };
 
 export default function Featured() {
@@ -25,6 +27,8 @@ export default function Featured() {
           height={product.height}
           width={product.width}
           depth={product.depth}
+          weight={product.weight}
+          warranty={product.warranty}
         />
       </div>
     </section>
