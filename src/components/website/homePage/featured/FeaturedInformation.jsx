@@ -1,6 +1,6 @@
 export default function FeaturedInformation({ name, description }) {
   return (
-    <div className="mb-10">
+    <div className="flex-1">
       <span className="text-sm md:text-md font-semibold text-gray-400 uppercase">
         Signature collection
       </span>

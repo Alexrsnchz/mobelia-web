@@ -9,7 +9,7 @@ export default function FeaturedDetails({
   warranty,
 }) {
   return (
-    <div className="grid grid-cols-2 gap-5">
+    <div className="grid grid-cols-2 flex-1 gap-5 self-center md:self-center xl:self-start">
       <div>
         <h4 className="text-sm font-medium text-gray-500 uppercase">Room</h4>
         <span className="font-medium text-gray-800">{room}</span>

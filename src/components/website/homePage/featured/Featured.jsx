@@ -17,7 +17,7 @@ const product = {
 export default function Featured() {
   return (
     <section id="featured">
-      <div className="bg-stone-100 py-6 md:py-12">
+      <div className="bg-stone-100 py-8 md:py-12">
         <FeaturedProduct
           name={product.name}
           description={product.description}
