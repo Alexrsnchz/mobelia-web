@@ -39,7 +39,7 @@ export default function FeaturedProduct({
         <FeaturedBadges />
 
         {/* BUTTONS SECTION */}
-        <div className="mt-11">
+        <div className="my-11">
           <Link
             to="/furniture/productId"
             className="px-6 py-3 space-x-2 rounded-md border-2 border-neutral-800 bg-white-900 hover:bg-neutral-800 hover:text-white"
