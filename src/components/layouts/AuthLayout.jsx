@@ -1,5 +1,5 @@
-import AuthPage_background from "@/assets/images/AuthPage_background.webp";
-import MobeliaLogo_badge from "@/assets/images/MobeliaLogo_badge.webp";
+import AuthPage_background from "@/assets/images/homePage/misc/AuthPage_background.webp";
+import MobeliaLogo_badge from "@/assets/images/homePage/misc/MobeliaLogo_badge.webp";
 import { Link } from "react-router";
 
 export default function AuthLayout({ children }) {

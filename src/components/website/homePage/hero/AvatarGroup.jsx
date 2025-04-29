@@ -1,7 +1,7 @@
-import avatar_1 from "@/assets/images/homePage_hero/avatar_1.webp";
-import avatar_2 from "@/assets/images/homePage_hero/avatar_2.webp";
-import avatar_3 from "@/assets/images/homePage_hero/avatar_3.webp";
-import avatar_4 from "@/assets/images/homePage_hero/avatar_4.webp";
+import avatar_1 from "@/assets/images/homePage/hero/avatar_1.webp";
+import avatar_2 from "@/assets/images/homePage/hero/avatar_2.webp";
+import avatar_3 from "@/assets/images/homePage/hero/avatar_3.webp";
+import avatar_4 from "@/assets/images/homePage/hero/avatar_4.webp";
 
 export default function AvatarGroup() {
   return (

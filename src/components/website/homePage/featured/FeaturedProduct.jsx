@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import Featured from "@/assets/images/homePage_misc/featuredProduct.webp";
+import Featured from "@/assets/images/homePage/featured/featuredProduct.webp";
 import FeaturedBadges from "@/components/website/homePage/featured/FeaturedBadges.jsx";
 import FeaturedDetails from "@/components/website/homePage/featured/FeaturedDetails.jsx";
 import FeaturedInformation from "@/components/website/homePage/featured/FeaturedInformation.jsx";

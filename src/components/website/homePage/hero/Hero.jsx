@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import heroProduct from "@/assets/images/homePage_hero/heroProduct.webp";
+import heroProduct from "@/assets/images/homePage/hero/heroProduct.webp";
 import AvatarGroup from "@/components/website/homePage/hero/AvatarGroup.jsx";
 
 export default function Hero() {

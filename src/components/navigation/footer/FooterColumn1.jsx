@@ -1,4 +1,4 @@
-import MobeliaLogo_badge from "@/assets/images/MobeliaLogo_badge.webp";
+import MobeliaLogo_badge from "@/assets/images/homePage/misc/MobeliaLogo_badge.webp";
 import { Link } from "react-router";
 import {
   FacebookIcon,

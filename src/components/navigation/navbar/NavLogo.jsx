@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import MobeliaLogo_badge from "@/assets/images/MobeliaLogo_badge.webp";
+import MobeliaLogo_badge from "@/assets/images/homePage/misc/MobeliaLogo_badge.webp";
 
 export default function NavLogo() {
   return (

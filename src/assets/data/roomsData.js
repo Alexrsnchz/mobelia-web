@@ -1,10 +1,10 @@
-import LivingRoom from "@/assets/images/homePage_rooms/livingRoom.webp";
-import Bedroom from "@/assets/images/homePage_rooms/bedroom.webp";
-import Dining from "@/assets/images/homePage_rooms/diningRoom.webp";
-import Bathroom from "@/assets/images/homePage_rooms/bathroom.webp";
-import HomeOffice from "@/assets/images/homePage_rooms/homeOffice.webp";
-import Outdoor from "@/assets/images/homePage_rooms/outdoor.webp";
-import Decoration from "@/assets/images/homePage_rooms/decoration.webp";
+import LivingRoom from "@/assets/images/homePage/rooms/livingRoom.webp";
+import Bedroom from "@/assets/images/homePage/rooms/bedroom.webp";
+import Dining from "@/assets/images/homePage/rooms/diningRoom.webp";
+import Bathroom from "@/assets/images/homePage/rooms/bathroom.webp";
+import HomeOffice from "@/assets/images/homePage/rooms/homeOffice.webp";
+import Outdoor from "@/assets/images/homePage/rooms/outdoor.webp";
+import Decoration from "@/assets/images/homePage/rooms/decoration.webp";
 
 const rooms = [
   {

@@ -1,4 +1,4 @@
-import HomePage_salesBanner from "@/assets/images/homePage_misc/salesBanner.webp";
+import HomePage_salesBanner from "@/assets/images/homePage/sales/salesBanner.webp";
 import SalesContent from "@/components/website/homePage/sales/SalesContent.jsx";
 
 export default function SalesBanner() {

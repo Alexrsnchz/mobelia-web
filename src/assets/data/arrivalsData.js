@@ -1,15 +1,15 @@
-import GrayCouch from "@/assets/images/homePage_arrivals/grayCouch.webp";
-import DoubleBed from "@/assets/images/homePage_arrivals/doubleBed.webp";
-import WoodenTable from "@/assets/images/homePage_arrivals/woodenTable.webp";
-import CubicPouf from "@/assets/images/homePage_arrivals/cubicPouf.webp";
-import ModernSink from "@/assets/images/homePage_arrivals/modernSink.webp";
-import CompactDesk from "@/assets/images/homePage_arrivals/compactDesk.webp";
-import OutdoorFireplace from "@/assets/images/homePage_arrivals/outdoorFireplace.webp";
-import StylishLamp from "@/assets/images/homePage_arrivals/stylishLamp.webp";
-import WallPlant from "@/assets/images/homePage_arrivals/wallPlant.webp";
-import WoodenWardrobe from "@/assets/images/homePage_arrivals/woodenWardrobe.webp";
-import LoungeSet from "@/assets/images/homePage_arrivals/loungeSet.webp";
-import BedroomMirror from "@/assets/images/homePage_arrivals/bedroomMirror.webp";
+import GrayCouch from "@/assets/images/homePage/arrivals/grayCouch.webp";
+import DoubleBed from "@/assets/images/homePage/arrivals/doubleBed.webp";
+import WoodenTable from "@/assets/images/homePage/arrivals/woodenTable.webp";
+import CubicPouf from "@/assets/images/homePage/arrivals/cubicPouf.webp";
+import ModernSink from "@/assets/images/homePage/arrivals/modernSink.webp";
+import CompactDesk from "@/assets/images/homePage/arrivals/compactDesk.webp";
+import OutdoorFireplace from "@/assets/images/homePage/arrivals/outdoorFireplace.webp";
+import StylishLamp from "@/assets/images/homePage/arrivals/stylishLamp.webp";
+import WallPlant from "@/assets/images/homePage/arrivals/wallPlant.webp";
+import WoodenWardrobe from "@/assets/images/homePage/arrivals/woodenWardrobe.webp";
+import LoungeSet from "@/assets/images/homePage/arrivals/loungeSet.webp";
+import BedroomMirror from "@/assets/images/homePage/arrivals/bedroomMirror.webp";
 
 const arrivals = [
   {
