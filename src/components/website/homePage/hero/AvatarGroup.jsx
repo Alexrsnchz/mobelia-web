@@ -5,7 +5,7 @@ import avatar_4 from "@/assets/images/homePage_hero/avatar_4.webp";
 
 export default function AvatarGroup() {
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex justify-center md:justify-start items-center space-x-4">
       <div className="flex items-center -space-x-3">
         <img
           src={avatar_1}
