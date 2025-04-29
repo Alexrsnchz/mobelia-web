@@ -5,7 +5,7 @@ import AvatarGroup from "@/components/website/homePage/hero/AvatarGroup.jsx";
 export default function Hero() {
   return (
     <section>
-      <div className="flex flex-col md:flex-row justify-center items-center px-6 md:px-8 py-15 md:py-26 gap-12 mx-auto max-w-7xl">
+      <div className="flex flex-col md:flex-row justify-center items-center px-6 md:px-8 py-5 md:py-26 gap-12 mx-auto max-w-7xl">
         <div className="order-2 md:order-1 space-y-9 max-w-xl text-center md:text-left">
           <h3 className="max-w-lg text-3xl md:text-5xl font-bold text-stone-800">
             Transform your space with style and comfort
